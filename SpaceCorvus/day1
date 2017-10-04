@@ -1,0 +1,9 @@
+<Player>
+    <Health>100</Health>
+    <CurrentRoom>Landing Bay</CurrentRoom>
+    <Weapon damage="20">Pulse Rifle</Weapon>
+    <StartRoom>Landing Bay</StartRoom>
+    <Inventory>
+        <Pickable>Pulse Rifle</Pickable>
+    </Inventory>
+</Player>

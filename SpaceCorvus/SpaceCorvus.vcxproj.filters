@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ExternalLibs">
+      <UniqueIdentifier>{c20416da-0720-4487-bc9c-0eb7c4f65c9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalLibs\Lua">
+      <UniqueIdentifier>{f111fd7e-61e3-497e-ba7c-239d4b03c903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalLibs\tinyxml2">
+      <UniqueIdentifier>{e28ff22e-8d3e-4d17-906c-504af6433853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{49bc948b-2958-4ce3-bcea-bb45b7737a8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\objects">
+      <UniqueIdentifier>{c2d89c24-ed8d-4f81-a8f5-e2d4e9a23118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\enemy">
+      <UniqueIdentifier>{5ee2eaff-e247-4db0-989a-0d5bc48531e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{c588d8d5-64ff-42b0-8a28-e54ce80c4ec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\objects">
+      <UniqueIdentifier>{48a4102a-2985-4a00-9199-3071bb65379e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\enemy">
+      <UniqueIdentifier>{a4f63475-8862-40c6-aca5-d1676efe9f15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="friendly.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ISystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\lapi.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\lauxlib.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\lbaselib.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\lbitlib.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\lcode.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\lcorolib.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\lctype.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\ldblib.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\ldebug.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\ldo.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\ldump.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\lfunc.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\lgc.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\linit.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\liolib.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\llex.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\lmathlib.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\lmem.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\loadlib.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\lobject.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\lopcodes.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\loslib.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\lparser.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\lstring.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\lstrlib.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\ltable.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\ltablib.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\ltm.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\lundump.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\lutf8lib.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\lvm.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\lzio.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\tinyxml2\tinyxml2.cpp">
+      <Filter>ExternalLibs\tinyxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="Android.cpp">
+      <Filter>Source Files\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Dreadbot.cpp">
+      <Filter>Source Files\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Ingenoid.cpp">
+      <Filter>Source Files\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Mortroid.cpp">
+      <Filter>Source Files\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Electronic.cpp">
+      <Filter>Source Files\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="firstAidBox.cpp">
+      <Filter>Source Files\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Source Files\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="gameLevel.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalLibs\lua\lstate.c">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Special.cpp">
+      <Filter>Source Files\objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Room.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ISystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="friendly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalLibs\lua\lapi.h">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalLibs\lua\lauxlib.h">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalLibs\lua\lcode.h">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalLibs\lua\lctype.h">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalLibs\lua\ldebug.h">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalLibs\lua\ldo.h">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalLibs\lua\lfunc.h">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalLibs\lua\lgc.h">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalLibs\lua\llex.h">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalLibs\lua\llimits.h">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalLibs\lua\lmem.h">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalLibs\lua\lobject.h">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalLibs\lua\lopcodes.h">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalLibs\lua\lparser.h">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalLibs\lua\lprefix.h">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalLibs\lua\lstring.h">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalLibs\lua\ltable.h">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalLibs\lua\ltm.h">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalLibs\lua\lua.h">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalLibs\lua\lua.hpp">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalLibs\lua\luaconf.h">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalLibs\lua\lualib.h">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalLibs\lua\lundump.h">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalLibs\lua\lvm.h">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalLibs\lua\lzio.h">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalLibs\tinyxml2\tinyxml2.h">
+      <Filter>ExternalLibs\tinyxml2</Filter>
+    </ClInclude>
+    <ClInclude Include="Android.h">
+      <Filter>Header Files\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Dreadbot.h">
+      <Filter>Header Files\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Ingenoid.h">
+      <Filter>Header Files\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Mortroid.h">
+      <Filter>Header Files\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="firstAidBox.h">
+      <Filter>Header Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Electronic.h">
+      <Filter>Header Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Header Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="gameLevel.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalLibs\lua\lstate.h">
+      <Filter>ExternalLibs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Special.h">
+      <Filter>Header Files\objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

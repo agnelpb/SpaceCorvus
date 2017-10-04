@@ -1,0 +1,9 @@
+<Player>
+    <Health>Landing Bay</Health>
+    <CurrentRoom>Landing Bay</CurrentRoom>
+    <Weapon>Pulse Rifle</Weapon>
+    <StartRoom/>
+    <Inventory>
+        <Pickable>Pulse Rifle</Pickable>
+    </Inventory>
+</Player>

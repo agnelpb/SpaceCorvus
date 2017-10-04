@@ -1,0 +1,894 @@
+<level>
+	<pickables>
+		<pickable type="weapon">
+			<name>Pulse Rifle</name>
+			<damage>20</damage>
+			<description>Point this end at the enemy. </description>
+		</pickable>
+		<pickable type="weapon">
+			<name>Neutralizer</name>
+			<damage>100</damage>
+			<description>EMP pulse pellets are fires that can fry any electronic machine or robot. </description>
+		</pickable>
+		<pickable type="weapon">
+			<name>EMP Grenade</name>
+			<damage>500</damage>
+			<description>Deactivates every unauthorized electronic machine in a room. Beware : Reduces 20 HP from you too.</description>
+		</pickable>
+		<pickable type="firstAid">
+			<name>PainKiller</name>
+			<health>50</health>
+			<description>Heals 50 hitpoints</description>
+		</pickable>
+		<pickable type="electronic">
+			<name>HackDex</name>
+			<description>Used to hack electronic devices.</description>
+		</pickable>	
+		<pickable type="electronic">
+			<name>ZigBee Module</name>
+			<description>Something like WiFi module, but better.. You could use it to make a HackDex !</description>
+		</pickable>	
+		<pickable type="electronic">
+			<name>IC Chip</name>
+			<description>A deca-core Cortex-A300 processor ! Could be used to make a HackDex</description>
+		</pickable>	
+		<pickable type="electronic">
+			<name>Base Module</name>
+			<description>A base circuit board. I could add modules and chips to it.
+			</description>
+		</pickable>	
+		<pickable type="electronic">
+			<name>Battery Pack</name>
+			<description>Good enough to power a small device.</description>
+		</pickable>		
+		<pickable type="electronic">
+			<name>Key Card L0</name>
+			<description>The Key Card for the Cargo Deck level </description>
+		</pickable>
+		<pickable type="electronic">
+			<name>Key Card L1</name>
+			<description>The Key Card for the Engineering Deck level </description>
+		</pickable>
+		<pickable type="electronic">
+			<name>Key Card L2</name>
+			<description>The Key Card for the Nav Deck level </description>
+		</pickable>
+		<pickable type="electronic">
+			<name>Key Card L3</name>
+			<description>The Key Card for the Crew Deck level </description>
+		</pickable>
+		<pickable type="electronic">
+			<name>Key Card LX</name>
+			<description>This Key Card could open almost anything in this ship !</description>
+		</pickable>
+		<pickable type="electronic">
+			<name>Key Card NavDeck</name>
+			<description>The new Key Card for Nav Deck!</description>
+		</pickable>
+		<pickable type="electronic">
+			<name>Nav Controller</name>
+			<description>This nav-pad is the key to controlling the Nav Deck.</description>
+		</pickable>
+	</pickables>
+
+	<specials>
+		<special>
+			<name>Left Thruster</name>
+			<description>Powers the left side thruster of the ship</description>
+		</special>
+		<special>
+			<name>Right Thruster</name>
+			<description>Powers the left side thruster of the ship</description>
+		</special>
+		<special>
+			<name>Blast Door Console</name>
+			<description>The blast door console can close the landing bay blast doors.</description>
+		</special>
+		<special>
+			<name>Navigation Console</name>
+			<description>Controls the navigation of ship.</description>
+		</special>
+
+		<special>
+			<name>Quantum Core Console</name>
+			<description>Controls the power routing of Quantum Core.</description>
+		</special>
+	</specials>	
+
+
+	<friendlies>
+		<friendly>
+			<name>Cargo Officer</name>
+			<reward>PainKiller</reward>
+			<description>He has been shot and is bleeding... He won't last long.</description>
+			<dialog>I'm dying...Here, take rest of my PainKiller..Go to the med bay..They need help.. </dialog>
+		</friendly>
+
+		<friendly>
+			<name>Chief Medic</name>
+			<reward>PainKiller</reward>
+			<description>She looks frightened and helpless.. Must be in a trauma of losing her crew.</description>
+			<dialog> Oh ! Thank God ! Thanks for rescuing me. You can rest here in case you get wounded. Take these PainKillers..</dialog>
+		</friendly>
+
+		<friendly>
+			<name>IT Specialist</name>
+			<reward>Key Card L1</reward>
+			<description>He is hiding behind the desk.. I guess trying to hide from the robots. </description>
+			<dialog> Hey !  I revoked the access card to Engineering Deck and made a new card. They were looking for me. Here take this key card. Now, go to Level 1 and meet Ambro. He is in the server room trying to secure the engine consoles.Thanks for killing those robots ! Here, let me upgrade damage of your Pulse Rifle.</dialog>
+		</friendly>
+
+		<friendly>
+			<name>Ambro</name>
+			<reward>Key Card L2</reward>
+			<description> Tall, brown and has hair all over his face. He is a bro.</description>
+			<dialog> I saw you coming. Could You kill those robots outside ? If you get me a IC Chip, ZigBee Module, Base Module and Battery Pack, I will make a HackDex to hack the robots. Here is the Key Card for Nav Deck. Go talk to our head of Security in Conference Room.</dialog>
+		</friendly>
+
+		<friendly>
+			<name>Guard Commander</name>
+			<reward>Neutralizer</reward>
+			<description> Her name plate says " Abeegail ". She looks exhausted. Fighting this robot hoard was no easy task. </description>
+			<dialog> Ambro said you were coming.. The situation is bad. We lost the Nav deck. The Captain is safe inside his room, but he needs your help. The robots are doing something to the ship. He will be able to explain more....I will stop anymore robots from getting into Nav Deck.  Take this Neutralizer.
+			</dialog>
+		</friendly>
+
+
+		<friendly>
+			<name>Nav Officer</name>
+			<reward>Nav Controller</reward>
+			<description> How he hid from those Ingenoids, I have no idea.. He seems to be holding together well..His name tag says " Austin Blaise "</description>
+			<dialog> Great Job ! We have now access to the Thrusters and Quantum core. Quick, Use this Nav Controller to activate navigation console. I will re-route the ship to a safe destination. Talk to me once you have done that.</dialog>
+		</friendly>
+
+		<friendly>
+			<name>Captain</name>
+			<reward>PainKiller</reward>
+			<description> Captain Spocker. He is sturdy looking man.. He is used to order people around. I can tell that for his stance..
+			</description>
+			<dialog>OH.. finally ! I thought our distress call was lost.. The robots have deactivated the thrusters, quantum core and blast doors. They are trying to make the ship float around until reinforcement comes to strike us harder.. You should activate them before it is too late. Close the blast door so that the reinforcement won't get in. Talk to me once it's done.
+
+			And Yeah.. I think I lost my key card somewhere in the crew deck.. You will need that to activate the Quantum Core.	Take these PainKillers..</dialog>
+		</friendly>
+
+
+		<friendly>
+			<name>Chief</name>
+			<reward>PainKiller</reward>
+			<description> An ex-marine or something.. The man is well built and armed with kitchen knife.. Like that would help..
+			</description>
+			<dialog>Thank you ! Thank you !  You saved my life ! Here.. Take these PainKillers</dialog>
+		</friendly>
+
+
+
+
+	</friendlies>
+
+	<rooms>
+		<room name="Landing Bay">
+			<startRoom></startRoom>
+			<description>I'm in a huge landing bay.There are signs of recent attack everywhere...wreckage of an unkown flying object.
+			</description>
+			<action>Two androids are trying to pin down a Cargo Officer. I need help him. He is bleeding...
+			</action>	
+			<locked>No</locked>			
+			<pickables> 
+			</pickables>
+			<enemies>
+				<enemy type="Android"> 2 </enemy> 
+			</enemies>	
+			<waypoint>
+				<room direction="North">Cargo Deck</room>
+				<room direction="South"></room>
+				<room direction="East">Cargo Office #2</room>
+				<room direction="West">Cargo Office #1</room>
+				<room direction="Up"></room>	
+				<room direction="Down"></room>		
+			</waypoint>	
+			<friendlies>
+				<friendly name="Cargo Officer"></friendly>
+			</friendlies>	
+		</room>
+
+
+		<room name="Cargo Office #2">
+			<description>The Room is brightly lit and has many consoles that are actively monitoring outbound cargo from SASS NewDawn.
+			</description>
+			<action>There is an android reparing a console. I think it is trying to close the Landing Bay doors..
+			</action>	
+			<locked>No</locked>
+			<pickables> 
+			</pickables>
+			<enemies>
+				<enemy type="Android"> 1 </enemy> 
+			</enemies>	
+			<waypoint>
+				<room direction="North">Cargo Storage #2</room>
+				<room direction="South">Repairs Room</room>
+				<room direction="East"></room>
+				<room direction="West">Landing Bay</room>
+				<room direction="Up"></room>	
+				<room direction="Down"></room>		
+			</waypoint>	
+			<friendlies>
+			</friendlies>	
+		</room>
+
+		<room name="Cargo Office #1">
+			<description>The room has seen it's share of attack.. It handles inbound Cargo.   
+			</description>
+			<action>There is an Android trying to smile at you..or something...
+			</action>	
+			<locked>No</locked>
+			<pickables> 
+			</pickables>
+			<enemies>
+				<enemy type="Android"> 1 </enemy> 
+			</enemies>	
+			<waypoint>
+				<room direction="North">Cargo Storage #1</room>
+				<room direction="South">Cargo Lounge</room>
+				<room direction="East">Landing Bay</room>
+				<room direction="West"></room>
+				<room direction="Up"></room>	
+				<room direction="Down"></room>		
+			</waypoint>	
+			<friendlies>
+			</friendlies>	
+		</room>
+
+		<room name="Cargo Lounge">
+			<description>There is a lounge.. I wish I could take rest. But duty calls.
+			</description>
+			<action> I think I found a stash of electronic devices..
+			</action>	
+			<locked>No</locked>
+			<pickables> 
+				<object name="ZigBee Module"> 1 </object>	
+			</pickables>
+			<enemies>
+			</enemies>	
+			<waypoint>
+				<room direction="North">Cargo Office #1</room>
+				<room direction="South"></room>
+				<room direction="East"></room>
+				<room direction="West"></room>
+				<room direction="Up"></room>	
+				<room direction="Down"></room>		
+			</waypoint>	
+			<friendlies>
+			</friendlies>	
+		</room>
+
+		<room name="Repairs Room">
+			<description>The machines to repair and maintaine the SASS is stored in this room..
+			</description>
+			<action> An Ingenoid is trying to get some kind of chip from a circuit board.
+			</action>	
+			<locked>No</locked>
+			<pickables> 
+				<object name="IC Chip"> 1 </object>	
+			</pickables>
+			<enemies>
+				<enemy type="Ingenoid"> 1 </enemy> 
+			</enemies>	
+			<waypoint>
+				<room direction="North">Cargo Office #2</room>
+				<room direction="South"></room>
+				<room direction="East"></room>
+				<room direction="West"></room>
+				<room direction="Up"></room>	
+				<room direction="Down"></room>		
+			</waypoint>	
+			<friendlies>
+			</friendlies>	
+		</room>
+
+
+		<room name="Cargo Storage #2">
+			<description>A big storage room filled with Cargo.. Most of it is waste to be dumped into space..
+			</description>
+			<action> I think I saw a keycard.. 
+			</action>	
+			<locked>No</locked>
+			<pickables> 
+				<object name="Key Card L0"> 1 </object>	
+			</pickables>
+			<enemies>
+			</enemies>	
+			<waypoint>
+				<room direction="North"></room>
+				<room direction="South">Cargo Office #2</room>
+				<room direction="East"></room>
+				<room direction="West"></room>
+				<room direction="Up"></room>	
+				<room direction="Down"></room>		
+			</waypoint>	
+			<friendlies>
+			</friendlies>	
+		</room>
+
+		<room name="Cargo Storage #1">
+			<description>A big storage room filled with Cargo. Supplies for the crew, weird machines and stuff..
+			</description>
+			<action> Uh oh ! A Dreadbot !
+			</action>	
+			<locked>No</locked>
+			<pickables> 
+				<object name="PainKiller"> 1 </object>	
+			</pickables>
+			<enemies>
+				<enemy type="Dreadbot"> 1 </enemy>
+			</enemies>	
+			<special>Blast Door Console</special>
+			<waypoint>
+				<room direction="North"></room>
+				<room direction="South">Cargo Office #1</room>
+				<room direction="East"></room>
+				<room direction="West"></room>
+				<room direction="Up"></room>	
+				<room direction="Down"></room>		
+			</waypoint>	
+			<friendlies>
+			</friendlies>	
+		</room>
+
+
+		<room name="Cargo Deck">
+			<description>The deck has been damage severly by an explosion.. Guards lie dead bathed in pool of blood..
+			</description>
+			<action> There are two androids searching for something among the guards.
+			</action>	
+			<locked>Yes</locked>
+			<keycard>Key Card L0</keycard>
+			<pickables> 	
+			</pickables>
+			<enemies>
+				<enemy type="Android"> 2 </enemy> 
+			</enemies>	
+			<waypoint>
+				<room direction="North">Med Bay</room>
+				<room direction="South">Landing Bay</room>
+				<room direction="East"></room>
+				<room direction="West"></room>
+				<room direction="Up">Engines Control</room>	
+				<room direction="Down"></room>		
+			</waypoint>	
+			<friendlies>
+			</friendlies>	
+		</room>
+
+		<room name="Med Bay">
+			<description>The Med Bay is a mess ! There are more bodies here.. I don't think anyone of them will survive. Atleast, the Chief Medic isn't dead...   
+			</description>
+			<action> An Android is interrogating the Chief Medic.. The robots seem to be looking for a lot of answers..
+			</action>	
+			<locked>No</locked>
+			<pickables> 
+			</pickables>
+			<enemies>
+				<enemy type="Android"> 1 </enemy> 
+			</enemies>	
+			<waypoint>
+				<room direction="North">Decon Unit</room>
+				<room direction="South">Cargo Deck</room>
+				<room direction="East"></room>
+				<room direction="West"></room>
+				<room direction="Up"></room>	
+				<room direction="Down"></room>		
+			</waypoint>	
+			<friendlies>
+				<friendly name="Chief Medic"></friendly>
+			</friendlies>	
+		</room>
+
+		<room name="Decon Unit">
+			<description>The Decontamination unit is on lock down ! It was used to prevent contamination in IC Unit. Looks like it's doing more than it's job.
+			</description>
+			<action> An android is banging at the door of IC Unit and an Ingenoid is trying to override the lock.
+			</action>	
+			<locked>No</locked>
+			<pickables>			
+				<object name="PainKiller"> 1 </object>	 	
+			</pickables>
+			<enemies>
+				<enemy type="Android"> 1 </enemy> 
+				<enemy type="Ingenoid"> 1 </enemy> 
+			</enemies>	
+			<waypoint>
+				<room direction="North"></room>
+				<room direction="South">Med Bay</room>
+				<room direction="East">IC Unit</room>
+				<room direction="West"></room>
+				<room direction="Up"></room>	
+				<room direction="Down"></room>		
+			</waypoint>	
+			<friendlies>
+			</friendlies>	
+		</room>
+
+		<room name="IC Unit">
+			<description>Life support system, advanced surgical robots, Antigens, anti-toxins.. Everything you need for intensive care.
+			</description>
+			<action> I think there is someone hiding behind the desk...
+			</action>	
+			<locked>No</locked>
+			<pickables> 	
+			</pickables>
+			<enemies>
+			</enemies>	
+			<waypoint>
+				<room direction="North"></room>
+				<room direction="South"></room>
+				<room direction="East"></room>
+				<room direction="West">Decon Unit</room>
+				<room direction="Up"></room>	
+				<room direction="Down"></room>		
+			</waypoint>	
+			<friendlies>
+				<friendly name="IT Specialist"></friendly>
+			</friendlies>	
+		</room>
+
+
+		<room name="Engines Control">
+			<description>The heart of the SASS. Engine Control room. You take control of the Engine control room and half the battle is over. The other half is, of course, the Nav Deck.
+			</description>
+			<action> Two Ingenoids are working on consoles and trying to bypass the security system.
+			</action>	
+			<locked>Yes</locked>			
+			<keycard>Key Card L1</keycard>
+			<pickables> 	
+			</pickables>
+			<enemies>
+				<enemy type="Ingenoid"> 2 </enemy> 
+			</enemies>	
+			<waypoint>
+				<room direction="North">Engines Room</room>
+				<room direction="South">Quantum Core</room>
+				<room direction="East">Servers Room</room>
+				<room direction="West">Consoles Room</room>
+				<room direction="Up">Nav Lounge</room>	
+				<room direction="Down">Cargo Deck</room>		
+			</waypoint>	
+			<friendlies>
+			</friendlies>	
+		</room>
+
+		<room name="Engines Room">
+			<description>The room is full of wires and machines making weird sounds.. I guess the consoles in the other room controls these machines.
+			</description>
+			<action> There is an Android guarding the elevator, an Ingenoid working on a console and a Dreadbot is lurking in a corner ! 
+			</action>	
+			<locked>No</locked>			
+			<pickables> 	
+			</pickables>
+			<enemies>
+				<enemy type="Android"> 1 </enemy> 
+				<enemy type="Ingenoid"> 1 </enemy> 
+				<enemy type="Dreadbot"> 1 </enemy> 
+			</enemies>	
+			<waypoint>
+				<room direction="North"></room>
+				<room direction="South">Engines Control</room>
+				<room direction="East">Coms Unit</room>
+				<room direction="West">Qes Unit</room>
+				<room direction="Up">Security Center</room>	
+				<room direction="Down"></room>		
+			</waypoint>	
+			<friendlies>
+			</friendlies>	
+		</room>
+
+		<room name="Qes Unit">
+			<description>The Quantum Entanglement Unit is used for long distance communication. 
+			</description>
+			<action> An Ingenoid lifted it's head to analyse you.
+			</action>	
+			<locked>No</locked>			
+			<pickables> 	
+			</pickables>
+			<enemies>
+				<enemy type="Ingenoid"> 1 </enemy> 
+			</enemies>	
+			<waypoint>
+				<room direction="North"></room>
+				<room direction="South"></room>
+				<room direction="East">Engines Room</room>
+				<room direction="West"></room>
+				<room direction="Up"></room>	
+				<room direction="Down"></room>		
+			</waypoint>	
+			<friendlies>
+			</friendlies>	
+		</room>
+
+		<room name="Coms Unit">
+			<description>The communication unit maintains the Ship's coms and manages short distance communications.
+			</description>
+			<action> I might find something useful in this room...
+			</action>	
+			<locked>No</locked>			
+			<pickables>
+				<object name="Base Module"> 1 </object>	 	 	
+				<object name="PainKiller"> 2 </object>					 	
+				<object name="EMP Grenade"> 2 </object>	 	 
+			</pickables>
+			<enemies>
+			</enemies>	
+			<waypoint>
+				<room direction="North"></room>
+				<room direction="South"></room>
+				<room direction="East"></room>
+				<room direction="West">Engines Room</room>
+				<room direction="Up"></room>	
+				<room direction="Down"></room>		
+			</waypoint>	
+			<friendlies>
+			</friendlies>	
+		</room>
+
+		<room name="Consoles Room">
+			<description>Woah ! That's a lot of consoles ! Looks like it controls ship's environment and engineering settings... Lot of power couplers and battery packs.
+			</description>
+			<action> I have to kill that Ingenoid before I search for a Battery Pack.
+			</action>	
+			<locked>No</locked>			
+			<pickables>
+				<object name="Battery Pack"> 1 </object>	
+				<object name="EMP Grenade"> 1 </object>	 
+				<object name="PainKiller"> 1 </object>	 	 	
+			</pickables>
+			<enemies>
+				<enemy type="Ingenoid"> 1 </enemy> 
+			</enemies>	
+			<waypoint>
+				<room direction="North"></room>
+				<room direction="South"></room>
+				<room direction="East">Engines Control</room>
+				<room direction="West"></room>
+				<room direction="Up"></room>	
+				<room direction="Down"></room>		
+			</waypoint>	
+			<friendlies>
+			</friendlies>	
+		</room>
+
+		<room name="Servers Room">
+			<description>A tiny server farm inside the ship. You could cause havok if you get access to this room. Good thing it has an internal override for for security latch. 
+			</description>
+			<action> There is a guy typing fast into multiple consoles. I guess that's Ambro.
+			</action>	
+			<locked>No</locked>			
+			<pickables>	
+				<object name="PainKiller"> 1 </object>
+			</pickables>
+			<enemies>
+			</enemies>	
+			<waypoint>
+				<room direction="North"></room>
+				<room direction="South"></room>
+				<room direction="East"></room>
+				<room direction="West">Engines Control</room>
+				<room direction="Up"></room>	
+				<room direction="Down"></room>		
+			</waypoint>	
+			<friendlies>
+				<friendly name="Ambro"></friendly>
+			</friendlies>	
+		</room>
+
+		<room name="Quantum Core">
+			<description>A circular orb pulsating intense energy radiation. The power tower of the ship.
+			</description>
+			<action> There is a DreadBot guarding the console. I need to kill it to Activate the Quantum Core.
+			</action>	
+			<locked>Yes</locked>			
+			<keycard>Key Card LX</keycard>			
+			<pickables>	
+			</pickables>
+			<enemies>
+				<enemy type="Dreadbot"> 1 </enemy> 
+			</enemies>	
+			<special>Quantum Core Console</special>	
+			<waypoint>
+				<room direction="North">Engines Control</room>
+				<room direction="South"></room>
+				<room direction="East"></room>
+				<room direction="West"></room>
+				<room direction="Up"></room>	
+				<room direction="Down"></room>		
+			</waypoint>	
+			<friendlies>
+			</friendlies>	
+		</room>
+
+		<room name="Nav Deck">
+			<description>The brain of ship. There are lot of navigation consoles, a huge holo projector and lot of dead crew members.
+			</description>
+			<action> Ingenoids are trying to override security. I need to kill those Ingenoids before I can Activate the Shields.
+			</action>	
+			<locked>Yes</locked>			
+			<keycard>Key Card NavDeck</keycard>			
+			<pickables>	
+			</pickables>
+			<enemies>
+				<enemy type="Ingenoid"> 3 </enemy> 
+			</enemies>
+			<special>Navigation Console</special>		
+			<waypoint>
+				<room direction="North"></room>
+				<room direction="South">Security Center</room>
+				<room direction="East"></room>
+				<room direction="West"></room>
+				<room direction="Up"></room>	
+				<room direction="Down"></room>		
+			</waypoint>	
+			<friendlies>
+				<friendly name="Nav Officer"></friendly>
+			</friendlies>	
+		</room>
+
+		<room name="Security Center">
+			<description>The security center guards the Nav Deck. But the robots were powerful enough to take down entire cadre of guards. 
+			</description>
+			<action> There is a Dreadbot and two Mortroids... I need to take them all down together..
+			</action>	
+			<locked>Yes</locked>			
+			<keycard>Key Card L2</keycard>			
+			<pickables>	
+				<object name="PainKiller"> 2 </object>
+			</pickables>
+			<enemies>
+				<enemy type="Dreadbot"> 1 </enemy> 
+				<enemy type="Mortroid"> 2 </enemy> 
+			</enemies>	
+			<waypoint>
+				<room direction="North">Nav Deck</room>
+				<room direction="South">Nav Lounge</room>
+				<room direction="East">Thruster M-Room #2</room>
+				<room direction="West">Thruster M-Room #1</room>
+				<room direction="Up">Crew Lounge</room>	
+				<room direction="Down">Engines Room</room>		
+			</waypoint>	
+			<friendlies>
+			</friendlies>	
+		</room>
+
+		<room name="Nav Lounge">
+			<description>The huge lounge welcomes visitors and personnels of importance...or in this case, a stinking robot army ! 
+			</description>
+			<action> A Dreadbot is advancing towards you.. Three Mortroids are trying to get to Conference Room.</action>	
+			<locked>Yes</locked>			
+			<keycard>Key Card L2</keycard>			
+			<pickables>	
+			</pickables>
+			<enemies>
+				<enemy type="Dreadbot"> 1 </enemy> 
+				<enemy type="Mortroid"> 3 </enemy> 
+			</enemies>	
+			<waypoint>
+				<room direction="North">Security Center</room>
+				<room direction="South">Conference Room</room>
+				<room direction="East"></room>
+				<room direction="West"></room>
+				<room direction="Up"></room>	
+				<room direction="Down">Engines Control</room>		
+			</waypoint>	
+			<friendlies>
+			</friendlies>	
+		</room>
+
+		<room name="Conference Room">
+			<description>Used for discussions or meetings with VIPs, the conference room is a secure room with reinforced walls and doors.
+			</description>
+			<action> The Guard Commander is the only one left to defend the Nav Deck and she is getting ready to make the last stand.. </action>	
+			<locked>No</locked>			
+			<pickables>	
+				<object name="PainKiller"> 1 </object>
+				<object name="Key Card L3"> 1 </object>
+			</pickables>
+			<enemies>
+			</enemies>	
+			<waypoint>
+				<room direction="North">Nav Lounge</room>
+				<room direction="South"></room>
+				<room direction="East"></room>
+				<room direction="West"></room>
+				<room direction="Up"></room>	
+				<room direction="Down"></room>		
+			</waypoint>	
+			<friendlies>
+					<friendly name="Guard Commander"></friendly>
+			</friendlies>	
+		</room>
+
+
+		<room name="Thruster M-Room #1">
+			<description>The Left Thruster Maintenance Room. Has a few consoles and a manual override..
+			</description>
+			<action> I need to take down that Dreadbot before manually overriding the left thruster</action>	
+			<locked>No</locked>			
+			<pickables>	
+			</pickables>
+			<enemies>
+				<enemy type="Dreadbot"> 1 </enemy> 
+			</enemies>
+			<special>Left Thruster</special>	
+			<waypoint>
+				<room direction="North">Security Center</room>
+				<room direction="South"></room>
+				<room direction="East"></room>
+				<room direction="West"></room>
+				<room direction="Up"></room>	
+				<room direction="Down"></room>		
+			</waypoint>	
+			<friendlies>
+			</friendlies>	
+		</room>
+
+		<room name="Thruster M-Room #2">
+			<description>The Right Thruster Maintenance Room. Has a few consoles and a manual override..
+			</description>
+			<action> I need to take down that Dreadbot before manually overriding the right thruster</action>	
+			<locked>No</locked>			
+			<pickables>	
+			</pickables>
+			<enemies>
+				<enemy type="Dreadbot"> 1 </enemy> 
+			</enemies>	
+			<special>Right Thruster</special>	
+			<waypoint>
+				<room direction="North">Security Center</room>
+				<room direction="South"></room>
+				<room direction="East"></room>
+				<room direction="West"></room>
+				<room direction="Up"></room>	
+				<room direction="Down"></room>		
+			</waypoint>	
+			<friendlies>
+			</friendlies>	
+		</room>
+
+
+		<room name="Captain's Room">
+			<description>Captain's quaters. Built for comfort and efficiency. There is also a view of the space from this room.. Space looks...dark...
+			</description>
+			<action> The Captain is aiming his neutralizers at the door.. Better talk to him before he starts shooting</action>	
+			<locked>No</locked>			
+			<pickables>	
+				<object name="PainKiller"> 1 </object>
+			</pickables>
+			<enemies>
+			</enemies>
+			<waypoint>
+				<room direction="North"></room>
+				<room direction="South">Crew Lounge</room>
+				<room direction="East"></room>
+				<room direction="West"></room>
+				<room direction="Up"></room>	
+				<room direction="Down"></room>		
+			</waypoint>	
+			<friendlies>
+				<friendly name="Captain"></friendly>
+			</friendlies>	
+		</room>
+
+		<room name="Crew Lounge">
+			<description>The lounge for crew to hang out.. There are magazines, a holographic display running Galactic New channel. The room is deserted.
+			</description>
+			<action> A Mortroid is trying to get to Captain's Room.</action>	
+			<locked>Yes</locked>				
+			<keycard>Key Card L3</keycard>					
+			<pickables>	
+			</pickables>
+			<enemies>
+					<enemy type="Mortroid"> 1 </enemy> 
+			</enemies>
+			<waypoint>
+				<room direction="North">Captain's Room</room>
+				<room direction="South">Dining Room</room>
+				<room direction="East">Hallway</room>
+				<room direction="West"></room>
+				<room direction="Up"></room>	
+				<room direction="Down">Security Center</room>		
+			</waypoint>	
+			<friendlies>
+			</friendlies>	
+		</room>
+
+		<room name="Dining Room">
+			<description> The dining room for the crew.. The tables contain left over food and some chairs have been over turned.. Looks like everyone left their lunch in a hurry.
+			</description>
+			<action> The Mortroids are looking for something...or someone.</action>	
+			<locked>No</locked>			
+			<pickables>	
+			</pickables>
+			<enemies>
+					<enemy type="Mortroid"> 2 </enemy> 
+			</enemies>
+			<waypoint>
+				<room direction="North">Crew Lounge</room>
+				<room direction="South">Kitchen</room>
+				<room direction="East"></room>
+				<room direction="West"></room>
+				<room direction="Up"></room>	
+				<room direction="Down"></room>		
+			</waypoint>	
+			<friendlies>
+			</friendlies>	
+		</room>
+
+		<room name="Kitchen">
+			<description> Now, I wouldn't call this a kitchen. They are just serving the food from a huge stock of supplies.. They don't even have chopping board..
+			</description>
+			<action> Someone is hiding behing the kitchen counter</action>	
+			<locked>No</locked>			
+			<pickables>	
+				<object name="EMP Grenade"> 1 </object>
+			</pickables>
+			<enemies>
+			</enemies>
+			<waypoint>
+				<room direction="North">Dining Room</room>
+				<room direction="South">Kitchen</room>
+				<room direction="East"></room>
+				<room direction="West"></room>
+				<room direction="Up"></room>	
+				<room direction="Down"></room>		
+			</waypoint>	
+			<friendlies>
+				<friendly name="Chief"></friendly>
+			</friendlies>	
+		</room>
+
+		<room name="Hallway">
+			<description> The hallway is soaked in blood.. The robots killed off anyone who was trying to come out of the crew cabin.. It's a bloody mess !
+			</description>
+			<action> A dreadbot is standing guard in the hallway.. Time for revenge..</action>
+			<locked>No</locked>			
+			<pickables>	
+			</pickables>
+			<enemies>
+				<enemy type="Dreadbot"> 1 </enemy> 
+			</enemies>
+			<waypoint>
+				<room direction="North"></room>
+				<room direction="South">Crew Cabin</room>
+				<room direction="East"></room>
+				<room direction="West">Crew Lounge</room>
+				<room direction="Up"></room>	
+				<room direction="Down"></room>		
+			</waypoint>	
+			<friendlies>
+			</friendlies>	
+		</room>
+
+
+		<room name="Crew Cabin">
+			<description> The robots killed their way into the crew cabin as well.. The survivers were sought out and made sure they didn't survive any longer.. The bots will pay for this.
+			</description>
+			<action> A Dreadbot and two Mortroids are searching for survivers. The captain's key card must be somewhere here..</action>
+			<locked>No</locked>			
+			<pickables>	
+				<object name="Key Card LX"> 1 </object>
+			</pickables>
+			<enemies>
+				<enemy type="Dreadbot"> 1 </enemy> 
+				<enemy type="Mortroid"> 2 </enemy> 
+			</enemies>
+			<waypoint>
+				<room direction="North">Hallway</room>
+				<room direction="South"></room>
+				<room direction="East"></room>
+				<room direction="West"></room>
+				<room direction="Up"></room>	
+				<room direction="Down"></room>		
+			</waypoint>	
+			<friendlies>
+			</friendlies>	
+		</room>
+
+	</rooms>
+</level>

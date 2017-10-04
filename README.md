@@ -4,4 +4,4 @@ A Text Adventure game created as an academic requirement of Game Development : A
 
 ## Download
 
-[http://www.agnelpb.com/project_space.html](Download Executable)
+[Download Executable] (http://www.agnelpb.com/project_space.html)
